@@ -1,0 +1,112 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SampleFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SDK",
+        "printedName": "SDK",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(apiKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15SampleFramework3SDKV9configure6apiKeyySS_tFZ",
+            "mangledName": "$s15SampleFramework3SDKV9configure6apiKeyySS_tFZ",
+            "moduleName": "SampleFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "doSomeWork",
+            "printedName": "doSomeWork()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15SampleFramework3SDKV10doSomeWorkyyFZ",
+            "mangledName": "$s15SampleFramework3SDKV10doSomeWorkyyFZ",
+            "moduleName": "SampleFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15SampleFramework3SDKV",
+        "mangledName": "$s15SampleFramework3SDKV",
+        "moduleName": "SampleFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/shilpa\/Desktop\/SampleSDK\/Framework\/SampleFramework\/SampleFramework\/SDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 171,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shilpa\/Desktop\/SampleSDK\/Framework\/SampleFramework\/SampleFramework\/SDK.swift",
+      "kind": "Array",
+      "offset": 215,
+      "length": 31,
+      "value": "[\"privateKey123\"]"
+    },
+    {
+      "filePath": "\/Users\/shilpa\/Desktop\/SampleSDK\/Framework\/SampleFramework\/SampleFramework\/SDK.swift",
+      "kind": "StringLiteral",
+      "offset": 346,
+      "length": 32,
+      "value": "\"Please provide a valid API Key\""
+    },
+    {
+      "filePath": "\/Users\/shilpa\/Desktop\/SampleSDK\/Framework\/SampleFramework\/SampleFramework\/SDK.swift",
+      "kind": "StringLiteral",
+      "offset": 637,
+      "length": 20,
+      "value": "\"Doing some work...\""
+    }
+  ]
+}
