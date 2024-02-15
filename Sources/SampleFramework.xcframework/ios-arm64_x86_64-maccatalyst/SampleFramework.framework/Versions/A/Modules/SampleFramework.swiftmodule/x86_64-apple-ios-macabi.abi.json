@@ -66,6 +66,27 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "validator",
+            "printedName": "validator()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15SampleFramework3SDKV9validatoryyFZ",
+            "mangledName": "$s15SampleFramework3SDKV9validatoryyFZ",
+            "moduleName": "SampleFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -107,6 +128,27 @@
       "offset": 637,
       "length": 20,
       "value": "\"Doing some work...\""
+    },
+    {
+      "filePath": "\/Users\/shilpa\/Desktop\/SampleSDK\/Framework\/SampleFramework\/SampleFramework\/SDK.swift",
+      "kind": "StringLiteral",
+      "offset": 765,
+      "length": 20,
+      "value": "\"Doing some work...\""
+    },
+    {
+      "filePath": "\/Users\/shilpa\/Desktop\/SampleSDK\/Framework\/SampleFramework\/SampleFramework\/SDK.swift",
+      "kind": "StringLiteral",
+      "offset": 926,
+      "length": 51,
+      "value": "\"[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}\""
+    },
+    {
+      "filePath": "\/Users\/shilpa\/Desktop\/SampleSDK\/Framework\/SampleFramework\/SampleFramework\/SDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1022,
+      "length": 17,
+      "value": "\"SELF MATCHES %@\""
     }
   ]
 }
